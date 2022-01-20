@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<!-- <img #img (click)="click($event)" [src]="url" height="1000"> <br/> -->
+<input type='file' (change)="onSelectFile($event)">
+
+<div style="position: relative;">
+ <canvas #layer1 id="layer1"   
+   style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+ <canvas #layer2 id="layer2" 
+   style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+</div>
